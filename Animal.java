@@ -1,4 +1,6 @@
 class Animal {
+    public static int numAnimals = 0;
+    
     public Animal() {
         numAnimals += 1;
     }
